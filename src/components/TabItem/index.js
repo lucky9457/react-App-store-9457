@@ -13,7 +13,7 @@ const TabItem = props => {
   const hrlineclass = isActive ? 'hrlineClick' : ''
 
   return (
-    <li className="liststyle">
+    <li onClick={clicktab} className="liststyle">
       <button onClick={clicktab} className={`tab-item-name ${clases}`}>
         {displayText}
       </button>
