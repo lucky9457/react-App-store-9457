@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.appElement {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 5px;
+  width: 90px;
+  cursor: pointer;
+  list-style: none;
+}
+.appimg {
+  height: 50px;
+}
+.appname {
+  font-family: bree serif;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+@media (width>=993px) {
+  .appElement {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    cursor: pointer;
+    margin-left: 0px;
+    list-style: none;
+  }
+  .appimg {
+    height: 60px;
+  }
+  .appname {
+    font-family: bree serif;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+}
