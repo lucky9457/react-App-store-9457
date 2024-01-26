@@ -56,3 +56,8 @@
   margin-left: 0px;
   padding-left: 0px;
 }
+@media (width<=600px) {
+  .app-cont {
+    width: 90vw;
+  }
+}
